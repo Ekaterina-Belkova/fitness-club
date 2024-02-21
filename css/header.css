@@ -1,0 +1,31 @@
+.header {
+  padding: 30px 0 10px;
+  background-color: #EBEBE9;
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__logo {
+  width: 182px;
+  height: 100;
+}
+
+.navigation__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navigation__list-item {
+   list-style-type: none; /* убирает точки в списке */
+  padding: 11px 32px;
+}
+
+.navigation__list-link {
+  text-decoration:none;
+}
