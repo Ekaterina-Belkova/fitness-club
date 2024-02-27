@@ -6,6 +6,11 @@
   color: #292929;
 }
 
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 /* h1 {
   position: absolute;
   font-family: 'Arial', sans-serif;

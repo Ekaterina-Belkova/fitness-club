@@ -1,0 +1,66 @@
+.info {
+  position: relative;
+}
+
+.info__title {
+  position: absolute;
+  font-family: Arial, sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 90px;
+  padding-top: 100px;
+  z-index: 2;
+}
+
+.info__card {
+  position: relative;
+  padding: 335px 27px 46px 27px;
+  margin: 72px 0 231px 200px;
+  width: 562px;
+  height: 670px;
+  border: 6px solid #FF8340;
+  z-index: 1;
+}
+
+.info__text {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.info__button {
+  padding-top: 14px;
+}
+
+.info__button:hover {
+  color:orangered;
+  font-size: 25px;
+  transition: 1s;
+}
+
+.image__woman-one {
+  position: absolute;
+  width: 953px;
+  height: 596px;
+  bottom: -230px;
+  right: -150px;
+}
+
+@media screen and (max-width: 1735px) {
+  .info__title {
+    padding-top: 80px;
+    margin-left: 5vw;
+  }
+  
+  .image__woman-one {
+    width: 598px;
+    height: 374px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 952px) {
+  .info__title {
+    font-size: 60px;
+  }
+}
