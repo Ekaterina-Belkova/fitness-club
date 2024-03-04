@@ -56,6 +56,12 @@
   padding-bottom: 165px;
 }
 
+.feedback__form-button:hover {
+  color:orangered;
+  font-size: 25px;
+  transition: 1s;
+}
+
 @media screen and (max-width: 1500px) {
   .feedback__text {
     padding-left: 5vw;
