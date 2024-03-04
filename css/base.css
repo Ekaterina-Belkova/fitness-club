@@ -1,0 +1,28 @@
+*, a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #292929;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* h1 {
+  position: absolute;
+  font-family: 'Arial', sans-serif;
+  font-size: 160px;
+  padding: 160px 10vw 0 479px;
+  color: #CFCFCD;
+} */
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #292929;
+  border: none;
+  background: none;
+}

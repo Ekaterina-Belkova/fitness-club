@@ -1,0 +1,25 @@
+.map__title {
+  padding-top: 115px;
+  padding-bottom: 46px;
+  padding-left: 13vw;
+  font-family: Arial;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.map__item {
+  height: 680px;
+}
+
+@media screen and (max-width: 1330px) {
+  .map__title {
+    padding-top: 100px;
+    padding-bottom: 28px;
+    padding-left: 5vw;
+    font-size: 60px;
+  }
+
+  .map__item {
+    height: 953px;
+  }
+}

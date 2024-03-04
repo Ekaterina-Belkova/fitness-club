@@ -1,0 +1,132 @@
+.price__title {
+  padding-top: 140px;
+  padding-bottom: 81px;
+  font-family: Arial, sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.price__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  height: 686px;
+}
+
+.price__wrapper-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 310px;
+  height: 624px;
+  border: 6px solid #292929;
+  padding: 70px 3vh 30px 3vh;
+}
+
+.item-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.price__wrapper-card__number {
+  width: 76px;
+  height: 76px;
+  border-radius: 50px;
+  border: 4px solid #292929;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 12%;
+}
+
+.price__wrapper-card:hover {
+  transition: 0.5s;
+  height: 686px;
+  border: 6px solid #FF8340;
+}
+
+.price__wrapper-card:hover .price__wrapper-card__number {
+  border: 6px solid #FF8340;
+  color: #FF8340;
+}
+
+.price__wrapper-card__month {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+
+.price__wrapper-card__description {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.price__wrapper-card__cost {
+  font-family: Arial, sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.price__wrapper-card__button {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1400px) {
+  .price__title {
+    padding-left: 13vw;
+  }
+
+@media screen and (max-width: 1330px) {
+  .price__title {
+    padding: 53px 0 53px 32px;
+    font-size: 60px;
+  }
+
+  .price__wrapper {
+    display: inline;
+  }
+
+  .price__wrapper-card {
+    flex-direction: row;
+    align-items: center;
+    width: 90vw;
+    height: 25vh;
+    margin-left: 5vw;
+    padding-left: 5vw;
+    gap: 5vw;
+  }
+
+  .price__wrapper-card:hover {
+    height: 26vh;
+  }
+
+  .price__wrapper-card:hover .price__wrapper-card__month {
+    color: #FF8340;
+  }
+
+  .item-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .price__wrapper-card__number {
+    padding-top: 8%;
+  }
+
+  .price__wrapper-card__description {
+    width: 306px;
+    height: 115px;
+  }
+}
